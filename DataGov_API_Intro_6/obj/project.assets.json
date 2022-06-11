@@ -2114,19 +2114,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usfstudent\\.nuget\\packages\\": {}
+    "C:\\Users\\magrawal\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "projectUniqueName": "C:\\Users\\magrawal\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
       "projectName": "DataGov_API_Intro_6",
-      "projectPath": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
-      "packagesPath": "C:\\Users\\usfstudent\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usfstudent\\Desktop\\DotNet6_Projects\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
+      "projectPath": "C:\\Users\\magrawal\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "packagesPath": "C:\\Users\\magrawal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\magrawal\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\usfstudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\magrawal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2199,7 +2203,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
       }
     }
   }
