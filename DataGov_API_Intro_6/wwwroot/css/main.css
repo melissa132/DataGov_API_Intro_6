@@ -1,0 +1,114 @@
+/**
+Sample css code
+*/
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body,
+html {
+  height: 100%;
+}
+
+/*Set background image*/
+.container {
+  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  color: beige;
+  top: 70%;
+  left: 39%;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*Set circle in unordered list*/
+.middle ul {
+  list-style-type: circle;
+}
+
+/*Set text inside li tag to left*/
+.middle ul li {
+  text-align: left !important;
+}
+
+/*Set text color for a tag inside middle class and ul>li element*/
+.middle ul li a {
+  color: beige;
+}
+
+/*Change text color and decoration for a tags inside middle class and ul>li element*/
+.middle ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+
+.navbar {
+    background-color: darkolivegreen;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+
+}
+
+.navbar a {
+        text-decoration: none;
+        color: inherit;
+        text-align:center;
+     }
+
+.navbar a:hover {
+        color: red;
+        text-decoration: none;
+    }
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    text-align:center;
+    margin-left:30px;
+}
+
+.navbar a:active {
+    color: forestgreen;
+}
+
+body{
+    min-height:100vh;
+}
+
+.navbar-right{
+    position:absolute;
+    top: 35px;
+    right: 15px;
+    font-size:3.5em;
+    font-weight:400;
+}
+
+.navbarbottom {
+    background-color: darkolivegreen;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    bottom: 0;
+    width:100%;
+    text-align:center;
+}
+.floatRight {
+    float: right;
+    margin-left: 20px
+}
+
+ul.a {
+    list-style-type: circle;
+}
