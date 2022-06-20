@@ -6,6 +6,8 @@ using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace DataGov_API_Intro_6.Controllers
 {
@@ -72,7 +74,24 @@ namespace DataGov_API_Intro_6.Controllers
                 Console.WriteLine(e.Message);
             }
 
-            return View(parks);
+            // Table to store the query results
+            DataTable table = new DataTable();
+
+            // Creates a SQL connection
+            using (var connection = new SqlConnection("Data Source = ism6225-group2.database.windows.net;initial Catalog=TravelTampa;User ID=traveltpa;Password=Bolts2022"))
+            {
+                connection.Open();
+                // Creates a SQL command
+                using (var command = new SqlCommand("SELECT * from vw_county_info", connection))
+                {
+                    // Loads the query results into the table
+                    table.Load(command.ExecuteReader());
+                }
+                connection.Close();
+            }
+
+                //return View(parks);
+                return View(table);
         }
     }
 }
