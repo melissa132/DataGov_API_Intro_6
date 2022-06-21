@@ -2114,26 +2114,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tamba\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Sydney Bocik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tamba\\Source\\Repos\\DataGov_API_Intro_6_project\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "projectUniqueName": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
       "projectName": "DataGov_API_Intro_6",
-      "projectPath": "C:\\Users\\tamba\\Source\\Repos\\DataGov_API_Intro_6_project\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
-      "packagesPath": "C:\\Users\\tamba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tamba\\Source\\Repos\\DataGov_API_Intro_6_project\\DataGov_API_Intro_6\\obj\\",
+      "projectPath": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+      "packagesPath": "C:\\Users\\Sydney Bocik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tamba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Sydney Bocik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
