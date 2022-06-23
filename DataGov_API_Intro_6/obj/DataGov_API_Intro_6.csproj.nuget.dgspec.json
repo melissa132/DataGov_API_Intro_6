@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj": {}
+    "C:\\Users\\dream\\Source\\Repos\\melissa132\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj": {
+    "C:\\Users\\dream\\Source\\Repos\\melissa132\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+        "projectUniqueName": "C:\\Users\\dream\\Source\\Repos\\melissa132\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
         "projectName": "DataGov_API_Intro_6",
-        "projectPath": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
-        "packagesPath": "C:\\Users\\Sydney Bocik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sydney Bocik\\Source\\Repos\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
+        "projectPath": "C:\\Users\\dream\\Source\\Repos\\melissa132\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\DataGov_API_Intro_6.csproj",
+        "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dream\\Source\\Repos\\melissa132\\DataGov_API_Intro_6\\DataGov_API_Intro_6\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Sydney Bocik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

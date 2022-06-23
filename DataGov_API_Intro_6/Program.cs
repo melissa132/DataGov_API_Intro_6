@@ -21,11 +21,11 @@ WebApplication app = builder.Build();
 
 // https://stackoverflow.com/a/71258326/1385857
 // https://stackoverflow.com/a/71461320/1385857
-using (var scope = app.Services.CreateScope())
+/*using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
     dbContext.Database.EnsureCreated();
-}
+}*/
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

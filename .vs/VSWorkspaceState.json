@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DataGov_API_Intro_6",
+    "\\DataGov_API_Intro_6\\Controllers",
+    "\\DataGov_API_Intro_6\\Views",
+    "\\DataGov_API_Intro_6\\Views\\Home",
+    "\\DataGov_API_Intro_6\\Views\\Shared"
   ],
   "SelectedNode": "\\DataGov_API_Intro_6.sln",
   "PreviewInSolutionExplorer": false

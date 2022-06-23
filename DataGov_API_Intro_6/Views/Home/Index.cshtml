@@ -27,10 +27,10 @@
 <body>
     <div class="navbar">
         <img src="./img/tampabay.png" style="vertical-align:middle" alt="Tampabay" width="200" height="75" class="navbar-brand">
-        <a href="index.html" class="navbar-item">Home</a>
-        <link><a href="Interest.html" class="navbar-item">Interest</a><link />
-        <link><a href="CovidResources.html" class="navbar-item">Covid Recommendations</a><link />
-        <link><a href="Recommendations.html" class="navbar-item">Recommendations</a><link />
+        <a href="@Url.Action("Index", "Home")" class="navbar-item">Home</a>
+        <link><a href="@Url.Action("Interest", "Home")" class="navbar-item">Interest</a><link />
+        <link><a href="@Url.Action("CovidResources", "Home")" class="navbar-item">Covid Recommendations</a><link />
+        <link><a href="@Url.Action("Recommendations", "Home")" class="navbar-item">Recommendations</a><link />
         <a class="navbar-right">Visit Tampa Bay</a>
     </div>
 
